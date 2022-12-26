@@ -2,7 +2,7 @@
 ## "Safety and Performance, Why not Both? Bi-Objective Optimized Model Compression toward AI Software Deployment" has been accepted by ASE2022 !!!
 
 ### SafeCompress Framework
-![SafeCompress](https://github.com/JiePKU/SafeCompress/blob/master/img/overview.pdf "SafeCompress") 
+![SafeCompress](https://github.com/JiePKU/SafeCompress/blob/master/img/overview.JPG "SafeCompress") 
 
 ### SafeCompress
 This code contains three instances of our *SafeCompress* framework called *BMIA-SafeCompress*, *WMIA-SafeCompress*, *MMIA-SafeCompress*.
