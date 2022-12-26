@@ -26,7 +26,7 @@ You can obtain the task acuracy (Task Acc) for vgg by running the following comm
 python main.py --sparse --seed 18 --sparse_init ERK  --multiplier 1 --lr 0.1 --density 0.05 --update_frequency 4000 --epochs 300 --model vgg-c --data cifar100 --decay_frequency 30000 --batch-size 128 --n_class 100 
 ```
 
-You can also obtain the task acuracy (Task Acc) for vgg by running the following command in adversarial training mode:
+You can obtain the task acuracy (Task Acc) for vgg by running the following command in adversarial training mode:
 ```python
 python adv_main.py --sparse --seed 18 --adv_mode 0 --sparse_init ERK --multiplier 1 --lr 0.1 --density 0.05 --update_frequency 4000 --epochs 300 --model vgg-c --data cifar100 --decay_frequency 30000 --batch-size 64 --redistribution none --pretrain_epoch 200 --n_class 100 
 ```
