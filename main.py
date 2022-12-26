@@ -115,6 +115,7 @@ def main():
     sparselearning.core.add_sparse_args(parser)
 
     args = parser.parse_args()
+
     setup_logger(args)
     print_and_log(args)
 
