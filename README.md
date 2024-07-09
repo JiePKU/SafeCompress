@@ -43,3 +43,20 @@ To perform white-box membership inference attacks (to obtain MIA Acc), you can r
 python whitemia_main.py --density 0.05 --manner safecompress_adv_for_white --mode adv --epochs 100 --model vgg-c --data cifar100 --batch-size 64 --n_class 100
 ```
 
+if it is helpful, please cite our paper:
+```python
+@article{zhu2024safety,
+  title={Safety and Performance, Why Not Both? Bi-Objective Optimized Model Compression against Heterogeneous Attacks Toward AI Software Deployment},
+  author={Zhu, Jie and Wang, Leye and Han, Xiao and Liu, Anmin and Xie, Tao},
+  journal={IEEE Transactions on Software Engineering},
+  year={2024},
+  publisher={IEEE}
+}
+@inproceedings{zhu2022safety,
+  title={Safety and Performance, Why not Both? Bi-Objective Optimized Model Compression toward AI Software Deployment},
+  author={Zhu, Jie and Wang, Leye and Han, Xiao},
+  booktitle={Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+  pages={1--13},
+  year={2022}
+}
+```
